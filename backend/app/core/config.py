@@ -17,7 +17,7 @@ class Settings(BaseSettings):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        cors_origins_env = os.getenv("CORS_ORIGINS", '["http://localhost:3000", "https://coviscope.vercel.app", "https://covi-scope-9io19ki8a-varshithab05s-projects.vercel.app"]')
+        cors_origins_env = os.getenv("CORS_ORIGINS", '["http://localhost:3000", "https://coviscope.vercel.app", "https://covi-scope-git-main-varshithab05s-projects.vercel.app"]')
         try:
             self.CORS_ORIGINS = json.loads(cors_origins_env)
         except json.JSONDecodeError:
