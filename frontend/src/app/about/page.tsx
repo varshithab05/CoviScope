@@ -12,7 +12,7 @@ export default function About() {
     <div className="min-h-[calc(100vh-8rem)] p-4">
       <div className="max-w-7xl mx-auto">
         <motion.h1 
-          className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-accent-cyan to-accent-purple bg-clip-text text-transparent"
+          className="text-4xl mt-12 font-bold text-center mb-12 bg-gradient-to-r from-accent-cyan to-accent-purple bg-clip-text text-transparent"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
