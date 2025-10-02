@@ -55,7 +55,7 @@ export default function UploadPage() {
 
     setIsUploading(true);
     try {
-      const response = await fetch('http://localhost:8000/api/sars-variants/predictSarsSequence', {
+      const response = await fetch('https://coviscope-3s5j.onrender.com/api/sars-variants/predictSarsSequence', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
