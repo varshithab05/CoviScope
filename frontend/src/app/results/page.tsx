@@ -82,7 +82,7 @@ export default function Results() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-accent-cyan to-accent-purple bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl mt-12 font-bold bg-gradient-to-r from-accent-cyan to-accent-purple bg-clip-text text-transparent mb-4">
             Analysis Results
           </h1>
           <div className="bg-glass p-6 rounded-xl backdrop-blur-sm border border-white/10 mb-8">
