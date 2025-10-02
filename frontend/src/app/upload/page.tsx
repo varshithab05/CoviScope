@@ -27,7 +27,7 @@ export default function UploadPage() {
       const formData = new FormData();
       formData.append('file', file);
 
-      const response = await fetch('http://localhost:8000/api/sars-variants/predictSarsFile', {
+      const response = await fetch('https://coviscope-3s5j.onrender.com/api/sars-variants/predictSarsFile', {
         method: 'POST',
         body: formData,
       });
